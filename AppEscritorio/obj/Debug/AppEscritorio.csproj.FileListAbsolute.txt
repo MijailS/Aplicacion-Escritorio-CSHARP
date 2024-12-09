@@ -1,0 +1,258 @@
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.exe.config
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.exe
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.pdb
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.AssemblyReference.cache
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Bodega.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Inicio.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Properties.Resources.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.GenerateResource.cache
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.CoreCompileInputs.cache
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.exe
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.pdb
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Alphilia.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.dll
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.CopyComplete
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarLibro.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarLibro.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.ListadoLibros.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarInsumo.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.GestionarSolicitudes.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.resources
+C:\Users\Mijail\source\repos\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarCliente.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.exe.config
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.exe
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.pdb
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.Design.dll
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.dll
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.AssemblyReference.cache
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarCliente.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarInsumo.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarLibro.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Alphilia.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Bodega.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarInsumo.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarLibro.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.GestionarSolicitudes.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Inicio.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Properties.Resources.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.ListadoLibros.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Login.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.resources
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.GenerateResource.cache
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.CoreCompileInputs.cache
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.CopyComplete
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.exe
+C:\Users\Duoc\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.pdb
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.AssemblyReference.cache
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarCliente.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarInsumo.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarLibro.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Alphilia.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Bodega.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarInsumo.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarLibro.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.GestionarSolicitudes.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Inicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Properties.Resources.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.ListadoLibros.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Login.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.GenerateResource.cache
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.CoreCompileInputs.cache
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.exe
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.pdb
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.exe.config
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.exe
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\AppEscritorio.pdb
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.csproj.CopyComplete
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Insumo.ListarInsumos.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Inventario.ListarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Administrar.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.HacerVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.AgregarBoleta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.EliminarBoleta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.ListarBoletas.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.ModificarBoleta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Cliente.EliminarCliente.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Cliente.ListarClientes.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Cliente.ModificarCliente.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Insumo.ModificarInsumos.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Libro.ModificarLibro.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.AgregarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.EliminarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.ListarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.ModificarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.AgregarRegion.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.EliminarRegion_.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.ListarRegion.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.ModificarRegion.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.AgregarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.EliminarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.ListarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.ModificarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.AgregarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.EliminarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.ModificarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.AgregarTecnico.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.EliminarTecnico.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.ListarTecnicos.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.ModificarTecnico.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.AgregarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.EliminarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.ListarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.ModificarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.AgregarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.EliminarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.ListarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.ModificarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.AgregarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.EliminarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.ListarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.ModificarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.AgregarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.EliminarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.ListarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.ModificarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.AgregarVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.EliminarVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.ListarVentas.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.ModificarVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.AgregarVisita.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.EliminarVisita.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.ListarVisitas.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.ModificarVisita.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.ListarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Inventario.ModificarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.AgregarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.EliminarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.ListarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.ModificarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.AgregarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.EliminarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.ListarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.ModificarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.AgregarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.EliminarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.ListarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.ModificarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.AgregarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.ListarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.ModificarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.EliminarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Mijail\Desktop\AppEscritorio\AppEscritorio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.csproj.AssemblyReference.cache
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Administrar.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.AgregarBoleta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.EliminarBoleta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.ListarBoletas.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Boleta.ModificarBoleta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Cliente.EliminarCliente.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Cliente.ListarClientes.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Cliente.ModificarCliente.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.AgregarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.EliminarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.ListarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Comuna.ModificarComuna.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.AgregarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.EliminarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.ListarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Despacho.ModificarDespacho.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.AgregarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.EliminarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.ListarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Envio.ModificarEnvio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.AgregarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.EliminarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.ListarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Estado.ModificarEstado.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Insumo.ListarInsumos.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Insumo.ModificarInsumos.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarCliente.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarInsumo.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Inventario.ListarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Inventario.ModificarInventario.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.AgregarLibro.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Alphilia.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Bodega.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarInsumo.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.EliminarLibro.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.GestionarSolicitudes.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Inicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Properties.Resources.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.ListadoLibros.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Libro.ModificarLibro.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Login.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.HacerVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.AgregarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.EliminarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.ListarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Pago.ModificarPago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.AgregarRegion.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.EliminarRegion_.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.ListarRegion.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Region.ModificarRegion.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.AgregarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.EliminarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.ListarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Retiro_tienda.ModificarRetiro_Tienda.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.AgregarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.EliminarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.ListarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Servicio.ModificarServicio.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.AgregarTecnico.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.EliminarTecnico.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.ListarTecnicos.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tecnico.ModificarTecnico.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.AgregarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.EliminarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.ListarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_pago.ModificarTipo_Pago.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.AgregarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.EliminarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.ListarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_trabajador.ModificarTipo_Trabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.AgregarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.EliminarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.ListarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Tipo_venta.ModificarTipo_Venta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.AgregarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.EliminarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.ListarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Trabajador.ModificarTrabajador.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.AgregarVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.EliminarVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.ListarVentas.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Venta.ModificarVenta.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.AgregarVisita.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.EliminarVisita.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.ListarVisitas.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.Vista.Visitas.ModificarVisita.resources
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.csproj.GenerateResource.cache
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.csproj.CoreCompileInputs.cache
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.exe
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.pdb
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\AppEscritorio.exe.config
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\AppEscritorio.exe
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\AppEscritorio.pdb
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\MetroFramework.Design.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\MetroFramework.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\MetroFramework.Fonts.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\System.Net.Http.Extensions.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\System.Net.Http.Primitives.dll
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Mijail\Desktop\AppEscritorio - copia\AppEscritorio\obj\Debug\AppEscritorio.csproj.CopyComplete

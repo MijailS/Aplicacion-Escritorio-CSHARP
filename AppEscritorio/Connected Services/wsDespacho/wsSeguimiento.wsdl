@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://webService/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="wsSeguimiento" targetNamespace="http://webService/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/WsSeguimiento(G)/wsSeguimiento?xsd=1" namespace="http://webService/" />
+    </xsd:schema>
+  </types>
+  <message name="agregarDespacho">
+    <part name="parameters" element="tns:agregarDespacho" />
+  </message>
+  <message name="agregarDespachoResponse">
+    <part name="parameters" element="tns:agregarDespachoResponse" />
+  </message>
+  <message name="NuevoEstado">
+    <part name="parameters" element="tns:NuevoEstado" />
+  </message>
+  <message name="NuevoEstadoResponse">
+    <part name="parameters" element="tns:NuevoEstadoResponse" />
+  </message>
+  <message name="listarDespachos">
+    <part name="parameters" element="tns:listarDespachos" />
+  </message>
+  <message name="listarDespachosResponse">
+    <part name="parameters" element="tns:listarDespachosResponse" />
+  </message>
+  <message name="modEstadoDespacho">
+    <part name="parameters" element="tns:modEstadoDespacho" />
+  </message>
+  <message name="modEstadoDespachoResponse">
+    <part name="parameters" element="tns:modEstadoDespachoResponse" />
+  </message>
+  <portType name="wsSeguimiento">
+    <operation name="agregarDespacho">
+      <input wsam:Action="http://webService/wsSeguimiento/agregarDespachoRequest" message="tns:agregarDespacho" />
+      <output wsam:Action="http://webService/wsSeguimiento/agregarDespachoResponse" message="tns:agregarDespachoResponse" />
+    </operation>
+    <operation name="NuevoEstado">
+      <input wsam:Action="http://webService/wsSeguimiento/NuevoEstadoRequest" message="tns:NuevoEstado" />
+      <output wsam:Action="http://webService/wsSeguimiento/NuevoEstadoResponse" message="tns:NuevoEstadoResponse" />
+    </operation>
+    <operation name="listarDespachos">
+      <input wsam:Action="http://webService/wsSeguimiento/listarDespachosRequest" message="tns:listarDespachos" />
+      <output wsam:Action="http://webService/wsSeguimiento/listarDespachosResponse" message="tns:listarDespachosResponse" />
+    </operation>
+    <operation name="modEstadoDespacho">
+      <input wsam:Action="http://webService/wsSeguimiento/modEstadoDespachoRequest" message="tns:modEstadoDespacho" />
+      <output wsam:Action="http://webService/wsSeguimiento/modEstadoDespachoResponse" message="tns:modEstadoDespachoResponse" />
+    </operation>
+  </portType>
+  <binding name="wsSeguimientoPortBinding" type="tns:wsSeguimiento">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="agregarDespacho">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="NuevoEstado">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarDespachos">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modEstadoDespacho">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="wsSeguimiento">
+    <port name="wsSeguimientoPort" binding="tns:wsSeguimientoPortBinding">
+      <soap:address location="http://localhost:8080/WsSeguimiento(G)/wsSeguimiento" />
+    </port>
+  </service>
+</definitions>

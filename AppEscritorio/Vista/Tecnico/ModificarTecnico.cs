@@ -1,0 +1,109 @@
+﻿using AppEscritorio.Controlador;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace AppEscritorio.Vista.Tecnico
+{
+    public partial class ModificarTecnico : Form
+    {
+        public ModificarTecnico()
+        {
+            InitializeComponent();
+            try
+            {
+                comboBox2.Items.Clear();
+
+                List<Models.Tecnico> listado = new TecnicoDAO().ListarTecnico();
+                comboBox2.DataSource = listado;
+                comboBox2.DisplayMember = "nombre_completo";
+                comboBox2.ValueMember = "id_tecnico";
+                metroGrid1.DataSource = listado;
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("ERROR AL LISTAR" + ex);
+            }
+        }
+
+        private void ModificarTecnico_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BtnSeleccionar_Click(object sender, EventArgs e)
+        {
+            int codigo = 0;
+            if (comboBox2.SelectedItem != null)
+            {
+                if (comboBox2.SelectedValue != null)
+                {
+                    codigo = Convert.ToInt32(comboBox2.SelectedValue);
+
+                    Console.WriteLine(codigo);
+                    try
+                    {
+                        List<Models.Tecnico> tec = new TecnicoDAO().BuscarTecnico(codigo);
+
+                        if (tec.Count > 0)
+                        {
+                            TxtNomCompleto.Text ="" ;
+                            TxtTecnicoID.Text ="" ;
+                            
+
+                            Models.Tecnico tecn = tec[0]; // Acceder al primer objeto Boleta de la lista
+
+                            TxtNomCompleto.Text = tecn.nombre_completo.ToString();
+                            TxtTecnicoID.Text = tecn.id_tecnico.ToString();
+                      
+                            tec.Clear();/// solucion para que no se caiga
+                        }
+
+
+                        else
+                        {
+                            Console.WriteLine("No se encontraron datos para el código seleccionado.");
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine("ERROR INESPERADO!: " + ex.Message);
+                    }
+                }
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Models.Tecnico tecnico = new Models.Tecnico();
+                tecnico.nombre_completo = TxtNomCompleto.Text;
+                tecnico.id_tecnico = Convert.ToInt32(TxtTecnicoID.Text);
+                if (new TecnicoDAO().EditarTecnico(tecnico))
+                {
+                    MessageBox.Show("Modificado");
+                }
+                else { MessageBox.Show("no modificado"); }
+
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            TxtNomCompleto.Enabled = true;
+        }
+    }
+}

@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFE40F85-D92A-4AE1-8BC1-A435E336B99A}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AppEscritorio</RootNamespace>
+    <AssemblyName>AppEscritorio</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>iconsmind-outline-warehouse.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.2.0.20126.16343\lib\net40\System.Net.Http.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions, Version=2.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=4.2.29.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.Formatting.Extension.5.2.3.0\lib\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.2.0.20126.16343\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+      <Private>True</Private>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Connected Services\wsAlphilia\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\wsDespacho\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Controlador\AlphiliaDAO.cs" />
+    <Compile Include="Controlador\BoletaDAO.cs" />
+    <Compile Include="Controlador\ClienteDAO.cs" />
+    <Compile Include="Controlador\ComunaDAO.cs" />
+    <Compile Include="Controlador\DespachoDAO.cs" />
+    <Compile Include="Controlador\Detalle_serv_insDAO.cs" />
+    <Compile Include="Controlador\EnvioDAO.cs" />
+    <Compile Include="Controlador\EstadoDAO.cs" />
+    <Compile Include="Controlador\InsumoDAO.cs" />
+    <Compile Include="Controlador\LibroDAO.cs" />
+    <Compile Include="Controlador\PagoDAO.cs" />
+    <Compile Include="Controlador\RegionDAO.cs" />
+    <Compile Include="Controlador\RetiroDAO.cs" />
+    <Compile Include="Controlador\ServicioDAO.cs" />
+    <Compile Include="Controlador\SolicitudDAO.cs" />
+    <Compile Include="Controlador\TecnicoDAO.cs" />
+    <Compile Include="Controlador\TipoPagoDAO.cs" />
+    <Compile Include="Controlador\Tipo_TrabDAO.cs" />
+    <Compile Include="Controlador\Tipo_VentaDAO.cs" />
+    <Compile Include="Controlador\TrabajadorDAO.cs" />
+    <Compile Include="Controlador\VentaDAO.cs" />
+    <Compile Include="Controlador\VisitaDAO.cs" />
+    <Compile Include="Controlador\wsDespachoDAO.cs" />
+    <Compile Include="Models\Alphilia.cs" />
+    <Compile Include="Models\Boleta.cs" />
+    <Compile Include="Models\Cliente.cs" />
+    <Compile Include="Models\Comuna.cs" />
+    <Compile Include="Models\Despacho.cs" />
+    <Compile Include="Models\Detalle_serv_ins.cs" />
+    <Compile Include="Models\Envio.cs" />
+    <Compile Include="Models\Estado.cs" />
+    <Compile Include="Models\Insumo.cs" />
+    <Compile Include="Models\Libro.cs" />
+    <Compile Include="Models\Pago.cs" />
+    <Compile Include="Models\Region.cs" />
+    <Compile Include="Models\Retiro_Tienda.cs" />
+    <Compile Include="Models\Servicio.cs" />
+    <Compile Include="Models\Solicitud.cs" />
+    <Compile Include="Models\Tecnico.cs" />
+    <Compile Include="Models\Tipo_pago.cs" />
+    <Compile Include="Models\Tipo_Trab.cs" />
+    <Compile Include="Models\Tipo_Venta.cs" />
+    <Compile Include="Models\Trabajador.cs" />
+    <Compile Include="Models\Venta.cs" />
+    <Compile Include="Models\Visita.cs" />
+    <Compile Include="Vista\Administrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Administrar.Designer.cs">
+      <DependentUpon>Administrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Boleta\AgregarBoleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Boleta\AgregarBoleta.Designer.cs">
+      <DependentUpon>AgregarBoleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Boleta\EliminarBoleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Boleta\EliminarBoleta.Designer.cs">
+      <DependentUpon>EliminarBoleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Boleta\ListarBoletas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Boleta\ListarBoletas.Designer.cs">
+      <DependentUpon>ListarBoletas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Boleta\ModificarBoleta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Boleta\ModificarBoleta.Designer.cs">
+      <DependentUpon>ModificarBoleta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Cliente\EliminarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Cliente\EliminarCliente.Designer.cs">
+      <DependentUpon>EliminarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Cliente\ListarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Cliente\ListarClientes.Designer.cs">
+      <DependentUpon>ListarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Cliente\ModificarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Cliente\ModificarCliente.Designer.cs">
+      <DependentUpon>ModificarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Comuna\AgregarComuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Comuna\AgregarComuna.Designer.cs">
+      <DependentUpon>AgregarComuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Comuna\EliminarComuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Comuna\EliminarComuna.Designer.cs">
+      <DependentUpon>EliminarComuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Comuna\ListarComuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Comuna\ListarComuna.Designer.cs">
+      <DependentUpon>ListarComuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Comuna\ModificarComuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Comuna\ModificarComuna.Designer.cs">
+      <DependentUpon>ModificarComuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Despacho\AgregarDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Despacho\AgregarDespacho.Designer.cs">
+      <DependentUpon>AgregarDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Despacho\EliminarDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Despacho\EliminarDespacho.Designer.cs">
+      <DependentUpon>EliminarDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Despacho\ListarDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Despacho\ListarDespacho.Designer.cs">
+      <DependentUpon>ListarDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Despacho\ModificarDespacho.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Despacho\ModificarDespacho.Designer.cs">
+      <DependentUpon>ModificarDespacho.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Envio\AgregarEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Envio\AgregarEnvio.Designer.cs">
+      <DependentUpon>AgregarEnvio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Envio\EliminarEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Envio\EliminarEnvio.Designer.cs">
+      <DependentUpon>EliminarEnvio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Envio\ListarEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Envio\ListarEnvio.Designer.cs">
+      <DependentUpon>ListarEnvio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Envio\ModificarEnvio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Envio\ModificarEnvio.Designer.cs">
+      <DependentUpon>ModificarEnvio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Estado\AgregarEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Estado\AgregarEstado.Designer.cs">
+      <DependentUpon>AgregarEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Estado\EliminarEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Estado\EliminarEstado.Designer.cs">
+      <DependentUpon>EliminarEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Estado\ListarEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Estado\ListarEstado.Designer.cs">
+      <DependentUpon>ListarEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Estado\ModificarEstado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Estado\ModificarEstado.Designer.cs">
+      <DependentUpon>ModificarEstado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Insumo\ListarInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Insumo\ListarInsumos.Designer.cs">
+      <DependentUpon>ListarInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Insumo\ModificarInsumos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Insumo\ModificarInsumos.Designer.cs">
+      <DependentUpon>ModificarInsumos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Inventario\AgregarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inventario\AgregarInventario.Designer.cs">
+      <DependentUpon>AgregarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Cliente\AgregarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Cliente\AgregarCliente.Designer.cs">
+      <DependentUpon>AgregarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Inventario\EliminarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inventario\EliminarInventario.Designer.cs">
+      <DependentUpon>EliminarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Insumo\AgregarInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Insumo\AgregarInsumo.Designer.cs">
+      <DependentUpon>AgregarInsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Inventario\ListarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inventario\ListarInventario.Designer.cs">
+      <DependentUpon>ListarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Inventario\ModificarInventario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inventario\ModificarInventario.Designer.cs">
+      <DependentUpon>ModificarInventario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Libro\AgregarLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Libro\AgregarLibro.Designer.cs">
+      <DependentUpon>AgregarLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Alphilia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Alphilia.Designer.cs">
+      <DependentUpon>Alphilia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Bodega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Bodega.Designer.cs">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Insumo\EliminarInsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Insumo\EliminarInsumo.Designer.cs">
+      <DependentUpon>EliminarInsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Libro\EliminarLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Libro\EliminarLibro.Designer.cs">
+      <DependentUpon>EliminarLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\GestionarSolicitudes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\GestionarSolicitudes.Designer.cs">
+      <DependentUpon>GestionarSolicitudes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Inicio.Designer.cs">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vista\Libro\ListadoLibros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Libro\ListadoLibros.Designer.cs">
+      <DependentUpon>ListadoLibros.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Libro\ModificarLibro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Libro\ModificarLibro.Designer.cs">
+      <DependentUpon>ModificarLibro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Pago\AgregarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Pago\AgregarPago.Designer.cs">
+      <DependentUpon>AgregarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Pago\EliminarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Pago\EliminarPago.Designer.cs">
+      <DependentUpon>EliminarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Pago\ListarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Pago\ListarPago.Designer.cs">
+      <DependentUpon>ListarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Pago\ModificarPago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Pago\ModificarPago.Designer.cs">
+      <DependentUpon>ModificarPago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Region\AgregarRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Region\AgregarRegion.Designer.cs">
+      <DependentUpon>AgregarRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Region\EliminarRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Region\EliminarRegion.Designer.cs">
+      <DependentUpon>EliminarRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Region\ListarRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Region\ListarRegion.Designer.cs">
+      <DependentUpon>ListarRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Region\ModificarRegion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Region\ModificarRegion.Designer.cs">
+      <DependentUpon>ModificarRegion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\AgregarRetiro_Tienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\AgregarRetiro_Tienda.Designer.cs">
+      <DependentUpon>AgregarRetiro_Tienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\EliminarRetiro_Tienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\EliminarRetiro_Tienda.Designer.cs">
+      <DependentUpon>EliminarRetiro_Tienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\ListarRetiro_Tienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\ListarRetiro_Tienda.Designer.cs">
+      <DependentUpon>ListarRetiro_Tienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\ModificarRetiro_Tienda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Retiro_tienda\ModificarRetiro_Tienda.Designer.cs">
+      <DependentUpon>ModificarRetiro_Tienda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Servicio\AgregarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Servicio\AgregarServicio.Designer.cs">
+      <DependentUpon>AgregarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Servicio\EliminarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Servicio\EliminarServicio.Designer.cs">
+      <DependentUpon>EliminarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Servicio\ListarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Servicio\ListarServicio.Designer.cs">
+      <DependentUpon>ListarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Servicio\ModificarServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Servicio\ModificarServicio.Designer.cs">
+      <DependentUpon>ModificarServicio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tecnico\AgregarTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tecnico\AgregarTecnico.Designer.cs">
+      <DependentUpon>AgregarTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tecnico\EliminarTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tecnico\EliminarTecnico.Designer.cs">
+      <DependentUpon>EliminarTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tecnico\ListarTecnicos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tecnico\ListarTecnicos.Designer.cs">
+      <DependentUpon>ListarTecnicos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tecnico\ModificarTecnico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tecnico\ModificarTecnico.Designer.cs">
+      <DependentUpon>ModificarTecnico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\AgregarTipo_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\AgregarTipo_Pago.Designer.cs">
+      <DependentUpon>AgregarTipo_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\EliminarTipo_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\EliminarTipo_Pago.Designer.cs">
+      <DependentUpon>EliminarTipo_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\ListarTipo_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\ListarTipo_Pago.Designer.cs">
+      <DependentUpon>ListarTipo_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\ModificarTipo_Pago.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_pago\ModificarTipo_Pago.Designer.cs">
+      <DependentUpon>ModificarTipo_Pago.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\AgregarTipo_Trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\AgregarTipo_Trabajador.Designer.cs">
+      <DependentUpon>AgregarTipo_Trabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\EliminarTipo_Trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\EliminarTipo_Trabajador.Designer.cs">
+      <DependentUpon>EliminarTipo_Trabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\ListarTipo_Trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\ListarTipo_Trabajador.Designer.cs">
+      <DependentUpon>ListarTipo_Trabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\ModificarTipo_Trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_trabajador\ModificarTipo_Trabajador.Designer.cs">
+      <DependentUpon>ModificarTipo_Trabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\AgregarTipo_Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\AgregarTipo_Venta.Designer.cs">
+      <DependentUpon>AgregarTipo_Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\EliminarTipo_Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\EliminarTipo_Venta.Designer.cs">
+      <DependentUpon>EliminarTipo_Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\ListarTipo_Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\ListarTipo_Venta.Designer.cs">
+      <DependentUpon>ListarTipo_Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\ModificarTipo_Venta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Tipo_venta\ModificarTipo_Venta.Designer.cs">
+      <DependentUpon>ModificarTipo_Venta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Trabajador\AgregarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Trabajador\AgregarTrabajador.Designer.cs">
+      <DependentUpon>AgregarTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Trabajador\EliminarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Trabajador\EliminarTrabajador.Designer.cs">
+      <DependentUpon>EliminarTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Trabajador\ListarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Trabajador\ListarTrabajador.Designer.cs">
+      <DependentUpon>ListarTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Trabajador\ModificarTrabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Trabajador\ModificarTrabajador.Designer.cs">
+      <DependentUpon>ModificarTrabajador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\HacerVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\HacerVenta.Designer.cs">
+      <DependentUpon>HacerVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Venta\AgregarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Venta\AgregarVenta.Designer.cs">
+      <DependentUpon>AgregarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Venta\EliminarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Venta\EliminarVenta.Designer.cs">
+      <DependentUpon>EliminarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Venta\ListarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Venta\ListarVentas.Designer.cs">
+      <DependentUpon>ListarVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Venta\ModificarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Venta\ModificarVenta.Designer.cs">
+      <DependentUpon>ModificarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Visitas\AgregarVisita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Visitas\AgregarVisita.Designer.cs">
+      <DependentUpon>AgregarVisita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Visitas\EliminarVisita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Visitas\EliminarVisita.Designer.cs">
+      <DependentUpon>EliminarVisita.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Visitas\ListarVisitas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Visitas\ListarVisitas.Designer.cs">
+      <DependentUpon>ListarVisitas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Visitas\ModificarVisita.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Visitas\ModificarVisita.Designer.cs">
+      <DependentUpon>ModificarVisita.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vista\Administrar.resx">
+      <DependentUpon>Administrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Boleta\AgregarBoleta.resx">
+      <DependentUpon>AgregarBoleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Boleta\EliminarBoleta.resx">
+      <DependentUpon>EliminarBoleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Boleta\ListarBoletas.resx">
+      <DependentUpon>ListarBoletas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Boleta\ModificarBoleta.resx">
+      <DependentUpon>ModificarBoleta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Cliente\EliminarCliente.resx">
+      <DependentUpon>EliminarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Cliente\ListarClientes.resx">
+      <DependentUpon>ListarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Cliente\ModificarCliente.resx">
+      <DependentUpon>ModificarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Comuna\AgregarComuna.resx">
+      <DependentUpon>AgregarComuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Comuna\EliminarComuna.resx">
+      <DependentUpon>EliminarComuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Comuna\ListarComuna.resx">
+      <DependentUpon>ListarComuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Comuna\ModificarComuna.resx">
+      <DependentUpon>ModificarComuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Despacho\AgregarDespacho.resx">
+      <DependentUpon>AgregarDespacho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Despacho\EliminarDespacho.resx">
+      <DependentUpon>EliminarDespacho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Despacho\ListarDespacho.resx">
+      <DependentUpon>ListarDespacho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Despacho\ModificarDespacho.resx">
+      <DependentUpon>ModificarDespacho.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Envio\AgregarEnvio.resx">
+      <DependentUpon>AgregarEnvio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Envio\EliminarEnvio.resx">
+      <DependentUpon>EliminarEnvio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Envio\ListarEnvio.resx">
+      <DependentUpon>ListarEnvio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Envio\ModificarEnvio.resx">
+      <DependentUpon>ModificarEnvio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Estado\AgregarEstado.resx">
+      <DependentUpon>AgregarEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Estado\EliminarEstado.resx">
+      <DependentUpon>EliminarEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Estado\ListarEstado.resx">
+      <DependentUpon>ListarEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Estado\ModificarEstado.resx">
+      <DependentUpon>ModificarEstado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Insumo\ListarInsumos.resx">
+      <DependentUpon>ListarInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Insumo\ModificarInsumos.resx">
+      <DependentUpon>ModificarInsumos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Inventario\AgregarInventario.resx">
+      <DependentUpon>AgregarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Cliente\AgregarCliente.resx">
+      <DependentUpon>AgregarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Inventario\EliminarInventario.resx">
+      <DependentUpon>EliminarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Insumo\AgregarInsumo.resx">
+      <DependentUpon>AgregarInsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Inventario\ListarInventario.resx">
+      <DependentUpon>ListarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Inventario\ModificarInventario.resx">
+      <DependentUpon>ModificarInventario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Libro\AgregarLibro.resx">
+      <DependentUpon>AgregarLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Alphilia.resx">
+      <DependentUpon>Alphilia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Bodega.resx">
+      <DependentUpon>Bodega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Insumo\EliminarInsumo.resx">
+      <DependentUpon>EliminarInsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Libro\EliminarLibro.resx">
+      <DependentUpon>EliminarLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\GestionarSolicitudes.resx">
+      <DependentUpon>GestionarSolicitudes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Inicio.resx">
+      <DependentUpon>Inicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Vista\Libro\ListadoLibros.resx">
+      <DependentUpon>ListadoLibros.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Libro\ModificarLibro.resx">
+      <DependentUpon>ModificarLibro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\HacerVenta.resx">
+      <DependentUpon>HacerVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Pago\AgregarPago.resx">
+      <DependentUpon>AgregarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Pago\EliminarPago.resx">
+      <DependentUpon>EliminarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Pago\ListarPago.resx">
+      <DependentUpon>ListarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Pago\ModificarPago.resx">
+      <DependentUpon>ModificarPago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Region\AgregarRegion.resx">
+      <DependentUpon>AgregarRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Region\EliminarRegion.resx">
+      <DependentUpon>EliminarRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Region\ListarRegion.resx">
+      <DependentUpon>ListarRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Region\ModificarRegion.resx">
+      <DependentUpon>ModificarRegion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Retiro_tienda\AgregarRetiro_Tienda.resx">
+      <DependentUpon>AgregarRetiro_Tienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Retiro_tienda\EliminarRetiro_Tienda.resx">
+      <DependentUpon>EliminarRetiro_Tienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Retiro_tienda\ListarRetiro_Tienda.resx">
+      <DependentUpon>ListarRetiro_Tienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Retiro_tienda\ModificarRetiro_Tienda.resx">
+      <DependentUpon>ModificarRetiro_Tienda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Servicio\AgregarServicio.resx">
+      <DependentUpon>AgregarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Servicio\EliminarServicio.resx">
+      <DependentUpon>EliminarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Servicio\ListarServicio.resx">
+      <DependentUpon>ListarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Servicio\ModificarServicio.resx">
+      <DependentUpon>ModificarServicio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tecnico\AgregarTecnico.resx">
+      <DependentUpon>AgregarTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tecnico\EliminarTecnico.resx">
+      <DependentUpon>EliminarTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tecnico\ListarTecnicos.resx">
+      <DependentUpon>ListarTecnicos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tecnico\ModificarTecnico.resx">
+      <DependentUpon>ModificarTecnico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_pago\AgregarTipo_Pago.resx">
+      <DependentUpon>AgregarTipo_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_pago\EliminarTipo_Pago.resx">
+      <DependentUpon>EliminarTipo_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_pago\ListarTipo_Pago.resx">
+      <DependentUpon>ListarTipo_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_pago\ModificarTipo_Pago.resx">
+      <DependentUpon>ModificarTipo_Pago.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_trabajador\AgregarTipo_Trabajador.resx">
+      <DependentUpon>AgregarTipo_Trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_trabajador\EliminarTipo_Trabajador.resx">
+      <DependentUpon>EliminarTipo_Trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_trabajador\ListarTipo_Trabajador.resx">
+      <DependentUpon>ListarTipo_Trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_trabajador\ModificarTipo_Trabajador.resx">
+      <DependentUpon>ModificarTipo_Trabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_venta\AgregarTipo_Venta.resx">
+      <DependentUpon>AgregarTipo_Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_venta\EliminarTipo_Venta.resx">
+      <DependentUpon>EliminarTipo_Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_venta\ListarTipo_Venta.resx">
+      <DependentUpon>ListarTipo_Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Tipo_venta\ModificarTipo_Venta.resx">
+      <DependentUpon>ModificarTipo_Venta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Trabajador\AgregarTrabajador.resx">
+      <DependentUpon>AgregarTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Trabajador\EliminarTrabajador.resx">
+      <DependentUpon>EliminarTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Trabajador\ListarTrabajador.resx">
+      <DependentUpon>ListarTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Trabajador\ModificarTrabajador.resx">
+      <DependentUpon>ModificarTrabajador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Venta\AgregarVenta.resx">
+      <DependentUpon>AgregarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Venta\EliminarVenta.resx">
+      <DependentUpon>EliminarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Venta\ListarVentas.resx">
+      <DependentUpon>ListarVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Venta\ModificarVenta.resx">
+      <DependentUpon>ModificarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Visitas\AgregarVisita.resx">
+      <DependentUpon>AgregarVisita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Visitas\EliminarVisita.resx">
+      <DependentUpon>EliminarVisita.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Visitas\ListarVisitas.resx">
+      <DependentUpon>ListarVisitas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Visitas\ModificarVisita.resx">
+      <DependentUpon>ModificarVisita.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Connected Services\wsAlphilia\AppEscritorio.wsAlphilia.insumo.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsAlphilia\AppEscritorio.wsAlphilia.libro.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsAlphilia\AppEscritorio.wsAlphilia.ListaAlphiliaInResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsAlphilia\AppEscritorio.wsAlphilia.ListaAlphiliaLiResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsAlphilia\wsAlphilia.wsdl" />
+    <None Include="Connected Services\wsAlphilia\wsAlphilia.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\wsDespacho\AppEscritorio.wsDespacho.agregarDespachoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsDespacho\AppEscritorio.wsDespacho.despacho.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsDespacho\AppEscritorio.wsDespacho.listarDespachosResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsDespacho\AppEscritorio.wsDespacho.modEstadoDespachoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsDespacho\AppEscritorio.wsDespacho.NuevoEstadoResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\wsDespacho\wsSeguimiento.wsdl" />
+    <None Include="Connected Services\wsDespacho\wsSeguimiento.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Example.png" />
+    <None Include="YoMijail.gif" />
+    <None Include="protection_manage_icon_216363.png" />
+    <None Include="no-disponible.png" />
+    <None Include="quill-ink_38954.png" />
+    <None Include="book_icon_158035.png" />
+    <None Include="home_icon-icons.com_73532.png" />
+    <None Include="alpha_icon_138947.png" />
+    <None Include="1492532808-5-shopping-bag_83223.png" />
+    <None Include="4115235-exit-logout-sign-out_114030.png" />
+    <None Include="books_21468.png" />
+    <None Include="3615744-barcode-delivery-order-package-parcel-shipment-tracking-number_107911.png" />
+    <None Include="boton-agregar.png" />
+    <None Include="caracteristicas.png" />
+    <None Include="editar.png" />
+    <None Include="Connected Services\wsAlphilia\configuration91.svcinfo" />
+    <None Include="Connected Services\wsAlphilia\configuration.svcinfo" />
+    <None Include="Connected Services\wsAlphilia\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Connected Services\wsDespacho\configuration91.svcinfo" />
+    <None Include="Connected Services\wsDespacho\configuration.svcinfo" />
+    <None Include="Connected Services\wsDespacho\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="iconsmind-outline-warehouse.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\wsAlphilia\" />
+    <WCFMetadataStorage Include="Connected Services\wsDespacho\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

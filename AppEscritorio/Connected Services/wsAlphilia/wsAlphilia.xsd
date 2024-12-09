@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webService/" targetNamespace="http://webService/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ListaAlphiliaIn" type="tns:ListaAlphiliaIn" />
+  <xs:element name="ListaAlphiliaInResponse" type="tns:ListaAlphiliaInResponse" />
+  <xs:element name="ListaAlphiliaLi" type="tns:ListaAlphiliaLi" />
+  <xs:element name="ListaAlphiliaLiResponse" type="tns:ListaAlphiliaLiResponse" />
+  <xs:complexType name="ListaAlphiliaIn">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ListaAlphiliaInResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:insumo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insumo">
+    <xs:sequence>
+      <xs:element name="id_insumo" type="xs:int" />
+      <xs:element minOccurs="0" name="img" type="xs:string" />
+      <xs:element minOccurs="0" name="nombre" type="xs:string" />
+      <xs:element name="stock" type="xs:int" />
+      <xs:element name="valor" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ListaAlphiliaLi">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="ListaAlphiliaLiResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:libro" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="libro">
+    <xs:sequence>
+      <xs:element name="anio_edicion" type="xs:int" />
+      <xs:element minOccurs="0" name="autor" type="xs:string" />
+      <xs:element name="id_libro" type="xs:int" />
+      <xs:element minOccurs="0" name="img" type="xs:string" />
+      <xs:element name="isbn" type="xs:int" />
+      <xs:element name="paginas" type="xs:int" />
+      <xs:element minOccurs="0" name="resenia" type="xs:string" />
+      <xs:element name="stock" type="xs:int" />
+      <xs:element minOccurs="0" name="titulo" type="xs:string" />
+      <xs:element name="valor" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

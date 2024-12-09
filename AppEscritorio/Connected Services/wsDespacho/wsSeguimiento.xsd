@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://webService/" targetNamespace="http://webService/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NuevoEstado" type="tns:NuevoEstado" />
+  <xs:element name="NuevoEstadoResponse" type="tns:NuevoEstadoResponse" />
+  <xs:element name="agregarDespacho" type="tns:agregarDespacho" />
+  <xs:element name="agregarDespachoResponse" type="tns:agregarDespachoResponse" />
+  <xs:element name="listarDespachos" type="tns:listarDespachos" />
+  <xs:element name="listarDespachosResponse" type="tns:listarDespachosResponse" />
+  <xs:element name="modEstadoDespacho" type="tns:modEstadoDespacho" />
+  <xs:element name="modEstadoDespachoResponse" type="tns:modEstadoDespachoResponse" />
+  <xs:complexType name="listarDespachos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarDespachosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:despacho" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="despacho">
+    <xs:sequence>
+      <xs:element name="comuna_id_comuna" type="xs:int" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element name="envio_id_envio" type="xs:int" />
+      <xs:element name="estado_id_estado" type="xs:int" />
+      <xs:element name="id_despacho" type="xs:int" />
+      <xs:element name="telefono" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="NuevoEstado">
+    <xs:sequence>
+      <xs:element name="p_id_despacho" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="NuevoEstadoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="agregarDespacho">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="arg0" type="tns:despacho" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="agregarDespachoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modEstadoDespacho">
+    <xs:sequence>
+      <xs:element name="p_id_despacho" type="xs:int" />
+      <xs:element name="p_estado_id_estado" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modEstadoDespachoResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
